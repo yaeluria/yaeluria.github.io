@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  /* color: black; */
+
 }
 body{
  position: relative;
@@ -26,11 +26,29 @@ hr{
 }
 .subtitle{
   font-family: 'Satisfy', cursive;
-  /* color: #6c757d; */
+
   color: white;
 }
 
-  
+.icon-material .path1:before {
+  content: "\e900";
+  color: #00b0ff;
+}
+.icon-material .path2:before {
+  content: "\e901";
+  color: #0081cb;
+  margin-left: -1.2587890625em;
+}
+.icon-material .path3:before {
+  content: "\e902";
+  color: #00b0ff;
+  margin-left: -1.2587890625em;
+}
+.icon-material .path4:before {
+  content: "\e903";
+  color: #0081cb;
+  margin-left: -1.2587890625em;
+}
 
   .section::before{ 
     display: block; 
@@ -42,19 +60,14 @@ hr{
   .projects{
     margin: 5rem 0 5rem 0;
     font-size: 1rem;
-
   }
  .sans{
-    /* padding-top: 2rem; */
     max-width: 40rem;
     font-family: 'Open sans';
     
   }
   
 
-  .sans hr{
-    border-top: 0.2rem solid;
-  }
   .sans a{
     color: black;
   }
@@ -72,7 +85,9 @@ hr{
   
    .contact{
   
-     background-color: #bbc4ef;
+     /* background-color: #bbc4ef; */
+    background-color: #fccdd3;
+
      padding-bottom: 5rem;
     color:white;
    }
@@ -142,10 +157,10 @@ hr{
       height: 55px;
       
   }
-  /* @media screen and (max-width: 450px) {
-   footer {
-  border: hidden;
-    }
-  } */
+  .material-icon{
+    height: 3rem;
+    width: 3rem;
+  }
+ 
   
   .overflow-hidden { overflow: hidden; }
