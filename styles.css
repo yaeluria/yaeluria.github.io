@@ -8,18 +8,14 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 .main{
- 
     min-height: 100vh;
     background-color: #fccdd3;
-    
     color: white;
-    
 }
 
 hr{
   width: 10rem;
   border-top: 5px solid;
-
 }
 .title{
   padding-top: 15%;
@@ -66,11 +62,8 @@ hr{
   }
   
    .contact{
-  
-     /* background-color: #bbc4ef; */
     background-color: #fccdd3;
-
-     padding-bottom: 5rem;
+    padding-bottom: 5rem;
     color:white;
    }
    
@@ -89,8 +82,8 @@ hr{
   .wrapper i:nth-child(1) {
     color: white;
     cursor: pointer;
-    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
     transition: all ease-in-out 150ms;
+    text-decoration: none;
   }
   
   .wrapper i:nth-child(1):hover {
@@ -99,11 +92,13 @@ hr{
     transform: translate(0, -8);
   }
  
+  .wrapper a{
+    text-decoration: none;
+  }
 
   footer{
       text-align: center;
       height: 55px;
-      
   }
   .material-icon{
     height: 3rem;
