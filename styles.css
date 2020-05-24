@@ -50,14 +50,18 @@ hr{
     color: black;
   }
  
-
+ 
  i[class*="devicon"]{
     font-size: 3rem;
   }
 
+  i {
+    margin-right: 10px;
+  }
+  
+
   img{
     width: 40rem;
-    height: 60rem;
     margin-bottom: 2rem;
   }
   
@@ -75,9 +79,6 @@ hr{
     text-align: center;
   }
   
-  i {
-    padding-right: 10px;
-  }
   
   .wrapper i:nth-child(1) {
     color: white;
@@ -100,9 +101,10 @@ hr{
       text-align: center;
       height: 55px;
   }
-  .material-icon{
+  .icon{
     height: 3rem;
     width: 3rem;
+    margin-right: 10px;
   }
  
   
